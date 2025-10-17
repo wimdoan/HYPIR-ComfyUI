@@ -1,0 +1,5 @@
+# Local artifacts that should not be committed
+__pycache__/
+.history/
+models/
+HYPIR-Comfyui.code-workspace

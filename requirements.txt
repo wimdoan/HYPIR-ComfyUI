@@ -1,0 +1,12 @@
+# Optional requirements for the Hyper-ComfyUI node set.
+# ComfyUI already bundles these packages in recent builds, but the list is
+# provided for clarity when creating an isolated environment.
+accelerate>=1.4.0
+peft>=0.14.0
+diffusers>=0.32.0
+transformers>=4.49.0
+torch>=2.1
+numpy
+tqdm
+Pillow
+requests
