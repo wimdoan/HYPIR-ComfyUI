@@ -7,13 +7,32 @@ collaborators. Source: <https://github.com/XPixelGroup/HYPIR>.
 
 > **License notice**
 > The HYPIR project is released for **non-commercial use only**. This
-> repository adopts Eric Hiss’s dual-license model (see `LICENSE.md`) and
+> repository adopts Eric Hiss's dual-license model (see `LICENSE.md`) and
 > redistributes upstream assets under their respective terms. Review all
 > license files before using the node in production.
 
+## Installation
+
+### Method 1: Via ComfyUI Manager (Recommended)
+
+1. Install [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) if you haven't already
+2. Open ComfyUI Manager in ComfyUI
+3. Search for "HYPIR" in the Custom Nodes section
+4. Click Install
+5. Restart ComfyUI
+
+### Method 2: Manual Installation
+
+1. Clone this repository into `ComfyUI/custom_nodes/`:
+   ```bash
+   cd ComfyUI/custom_nodes
+   git clone https://github.com/EricRollei/HYPIR-ComfyUI.git
+   ```
+2. Restart ComfyUI
+
 ## Quick Start
 
-1. Clone/Copy this folder into `ComfyUI/custom_nodes/HYPIR-ComfyUI`.
+1. After installation, the node will appear in ComfyUI under `Hyper Image Restoration/HYPIR`.
 2. **Download HYPIR weights**
    - Grab `HYPIR_sd2.pth` from <https://huggingface.co/lxq007/HYPIR/tree/main>.
    - Place it (and any other LoRA variants) in `HYPIR-ComfyUI/models/`.

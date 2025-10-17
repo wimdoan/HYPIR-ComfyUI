@@ -1,0 +1,26 @@
+[
+    {
+        "display_name": "HYPIR Image Restore",
+        "name": "HyperComfyUIHYPIRRestore",
+        "description": "Restores and optionally upscales scanned or generated images using the HYPIR LoRA on Stable Diffusion 2.1",
+        "category": "Hyper Image Restoration/HYPIR",
+        "input": {
+            "required": {
+                "image": "IMAGE",
+                "base_model_path": "STRING",
+                "weight_name": "LIST"
+            },
+            "optional": {
+                "prompt": "STRING",
+                "upscale": "FLOAT",
+                "seed": "INT",
+                "enhance_prompt": "BOOLEAN"
+            }
+        },
+        "output": [
+            "IMAGE",
+            "INT",
+            "STRING"
+        ]
+    }
+]
