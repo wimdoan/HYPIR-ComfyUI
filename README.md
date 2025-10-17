@@ -136,5 +136,5 @@ Please cite the original HYPIR paper and repository if you produce results or de
 | Source | Preview |
 | --- | --- |
 | Original film scan | ![Original film scan](assets/original-film-scan.jpg) |
+| HYPIR Image Restore | ![HYPIR restored output](assets/Hypir_restored.jpg) |
 | Photoshop Neural Filter: Photo Restoration | ![Photoshop neural filter result](assets/Photoshop-neural-filter-restored-film-scan.jpg) |
-| HYPIR Image Restore | ![HYPIR restored output](assets/Hypir_restored.png) |
